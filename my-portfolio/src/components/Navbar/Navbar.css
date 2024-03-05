@@ -156,3 +156,24 @@
     border: none;
     border-radius: 5px;
 }
+
+@media only screen and (max-width: 768px) {
+    .nav-content {
+        flex-direction: row; /* Align items horizontally */
+        justify-content: space-between; /* Space out items */
+        align-items: center; /* Center vertically */
+    }
+
+    .logo {
+        order: 1; /* Move logo to the left */
+    }
+
+    .menu-btn {
+        display: block; /* Show the menu button (hamburger icon) */
+        order: 2; /* Move menu button to the right */
+    }
+
+    .menu-items {
+        display: none; /* Hide menu items (optional) */
+    }
+}
