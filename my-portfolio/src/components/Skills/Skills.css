@@ -16,6 +16,7 @@
     z-index: -1;
     filter: blur(200px);
 
+
 }
 
 .skills-container::after {
@@ -113,5 +114,30 @@
     .skills-container{
 
         padding: 0;
+    }
+
+    
+}
+
+@media (max-width: 768px) {
+    .skills-content {
+        flex-direction: column-reverse; /* Reverse order for better mobile layout */
+        gap: 3rem;
+    }
+
+    .skills,
+    .skills-info {
+        width: 100%;
+    }
+
+    .skills-container h5 {
+        font-size: 1.3rem;
+        margin-bottom: 2rem;
+    }
+
+    .skills-container::after,
+    .skills-container::before {
+        width: 18rem;
+        height: 18rem;
     }
 }
