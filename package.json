@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "emailjs-com": "^3.2.0",
+    "react-icons": "^5.0.1",
+    "react-scroll": "^1.9.0",
+    "react-slick": "^0.30.2",
+    "slick-carousel": "^1.8.1"
+  },
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "my portfolio",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mohammed_shabeeb_t",
+  "license": "ISC"
+}
