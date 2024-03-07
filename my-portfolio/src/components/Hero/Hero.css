@@ -207,6 +207,7 @@
 
     }
 
+
     .hero-content p {
 
         font-size: 0.rem;
@@ -229,6 +230,7 @@
     .hero-img > div > img {
 
         width: 16rem;
+        height: 16rem;
 
     }
 

@@ -115,13 +115,16 @@
 
         padding: 0;
     }
-
+    
     
 }
 
 @media (max-width: 768px) {
+    .skills-container{
+        margin: 0.5rem;
+    }
     .skills-content {
-        flex-direction: column-reverse; /* Reverse order for better mobile layout */
+        flex-direction: column; 
         gap: 3rem;
     }
 
