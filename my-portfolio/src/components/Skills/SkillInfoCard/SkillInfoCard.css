@@ -87,3 +87,13 @@
         
     }
 }
+
+@media (max-width: 768px) {
+    .skills-info-card h6 {
+        font-size: 1.1rem;
+    }
+
+    .skill-info p {
+        font-size: 0.9rem;
+    }
+}
